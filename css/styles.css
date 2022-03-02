@@ -1,0 +1,64 @@
+:root {
+  --primary: rgb(235, 155, 81);
+  --secondary: rgb(46, 46, 46);
+}
+* {
+  transition: 0.3s all ease;
+}
+body {
+  font-family: poppins;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-secondary {
+  color: var(--secondary) !important;
+}
+.full-height {
+  height: 100vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bold-sm {
+  font-weight: 300;
+}
+.bold-md {
+  font-weight: 600;
+}
+.bold-lg {
+  font-weight: 900;
+}
+.ccard {
+  margin-top: 15px;
+}
+.ccard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--secondary);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+
+table thead th {
+  font-weight: 0 !important;
+}

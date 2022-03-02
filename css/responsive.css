@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+  .showcase .row {
+    flex-direction: column-reverse;
+  }
+  .showcase .row .col-md-6:nth-child(1) {
+    text-align: center;
+  }
+  .showcase .row .col-md-6:nth-child(1) p {
+    margin: auto;
+  }
+  .showcase .row .col-md-6:nth-child(1) button {
+    margin: auto;
+    margin-top: 10px;
+  }
+  .showcase .row .col-md-6:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .login{
+      background-color: white !important;
+  }
+  .login form{
+      box-shadow: none !important;
+  }
+  .hide{
+      display: none !important;
+  }
+}
